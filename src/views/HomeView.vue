@@ -1,9 +1,13 @@
 <script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+  import MonsterList from '../components/MonsterList.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <section>
+    <h1>Welcome!</h1>
+
+    <MonsterList />
+  </section>
 </template>
+
+<style></style>
