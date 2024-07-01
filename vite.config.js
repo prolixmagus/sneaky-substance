@@ -9,7 +9,9 @@ export default defineConfig({
   plugins: [
     vue(),
     {
-      ...eslint(),
+      ...eslint({
+        include: 'src/**/*.+(js)'
+      }),
       enforce: 'pre',
       apply: 'build'
     }
