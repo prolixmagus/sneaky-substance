@@ -1,9 +1,0 @@
-@import './base.css';
-
-body {
-  padding: 20px;
-}
-.outlet {
-  border: 2px dashed blue;
-  padding: 1em;
-}

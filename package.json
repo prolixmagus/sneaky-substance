@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "deploy": "surge dist"
+    "deploy": "vite build && cp dist/index.html dist/200.html && surge dist"
   },
   "dependencies": {
     "pinia": "^2.1.7",
