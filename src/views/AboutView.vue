@@ -1,6 +1,6 @@
 <template>
   <section>
-    <h1>This is an about page</h1>
+    <h1 class="loud-voice">About</h1>
   </section>
 </template>
 

@@ -1,13 +1,5 @@
-<script setup>
-  import MonsterList from '../components/MonsterList.vue'
-</script>
-
 <template>
-  <section>
-    <h1>Welcome!</h1>
-
-    <MonsterList />
-  </section>
+  <h1 class="loud-voice">Home Page</h1>
 </template>
 
 <style></style>
