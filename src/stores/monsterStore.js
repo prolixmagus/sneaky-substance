@@ -2,7 +2,7 @@ import { reactive } from 'vue';
 import { defineStore } from 'pinia';
 
 export const useMonsterStore = defineStore('monsters', () => {
-  const monsters = reactive([
+  const list = reactive([
     {
       id: 'a1',
       identity: 'Margaret',
@@ -38,5 +38,5 @@ export const useMonsterStore = defineStore('monsters', () => {
     monsters.splice(foundMonsterIndex, 1);
   }
 
-  return { monsters, add, removeMonster };
+  return { list, add, removeMonster };
 });

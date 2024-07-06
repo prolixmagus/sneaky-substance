@@ -6,7 +6,8 @@
 	const monsters = useMonsterStore();
 	const route = useRoute();
 
-	const foundMonster = monsters.monsters.find((monster) => {
+	// data store . monster array
+	const foundMonster = monsters.list.find((monster) => {
 		return monster.slug === route.params.slug;
 	});
 </script>

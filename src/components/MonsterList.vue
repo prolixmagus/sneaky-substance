@@ -58,7 +58,7 @@
 	</form>
 
 	<ul class="monster-list">
-		<li class="monster-item" v-for="monster in monsterData.monsters" :key="monster.id">
+		<li class="monster-item" v-for="monster in monsterData.list" :key="monster.id">
 			<RouterLink :to="`monster/${monster.slug}`">
 				{{ monster.identity }}
 			</RouterLink>
