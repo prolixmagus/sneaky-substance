@@ -13,7 +13,7 @@ html {
 
 	--corners: 10px; /* or whatevers */
 
-	--paper: hsla(209, 90%, 50%, 1); /*shadier dodgerblue*/
+	--paper: white; /*shadier dodgerblue*/
 	--ink: black;
 
 	--space: 20px;
