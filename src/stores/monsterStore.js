@@ -30,12 +30,12 @@ export const useMonsterStore = defineStore('monsters', () => {
   ]);
 
   function add(monster) {
-    monsters.push(monster);
+    list.push(monster);
   }
 
   function removeMonster(id) {
-    let foundMonsterIndex = monsters.findIndex((monster) => monster.identity === id);
-    monsters.splice(foundMonsterIndex, 1);
+    let foundMonsterIndex = list.findIndex((monster) => monster.identity === id);
+    list.splice(foundMonsterIndex, 1);
   }
 
   return { list, add, removeMonster };
